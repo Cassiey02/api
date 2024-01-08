@@ -1,6 +1,9 @@
 <h1>api_yamdb</h1>
 <h3>Применяемые технологии.</h3>
-    В данном проекте основным языком программирования является Python. Используемый фреймворк: Django. Помимо этого для реализации JWT-аутентификации использовалась библиотека djoser 2.1.0 
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat&logo=Django&logoColor=56C0C0&color=008080)](https://www.djangoproject.com/)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat&logo=PostgreSQL&logoColor=56C0C0&color=008080)](https://www.postgresql.org/)
+[![GitHub%20Actions](https://img.shields.io/badge/-GitHub%20Actions-464646?style=flat&logo=GitHub%20actions&logoColor=56C0C0&color=008080)](https://github.com/features/actions) 
 <h3>Описание.</h3>
     Проект собирает отзывы пользователей на произведения, такие как «Книги», «Фильмы», «Музыка». Пользователи имеют возможность оставлять к произведениям текстовые отзывы и ставить произведениям оценку; из пользовательских оценок формируется усреднённая оценка произведения — рейтинг. На одно произведение пользователь может оставить только один отзыв. Так же пользователи могут оставлять комментарии к отзывам.
 <h3>Установка.</h3>
@@ -11,4 +14,4 @@
     После этого проект готов к запуску.
 <h3>Наполнение базы.</h3>
     Для наполнения базы данными из файлов csv, требуется из дирректории, где лежит файл manage.py, выполнить команду: python manage.py import_csv
-<h3>Автор проекта.</h3> CaSSiDYFox@yandex.ru
+<h3>Автор проекта.</h3> Данный проект выполнялся в команде CaSSiDYFox@yandex.ru
